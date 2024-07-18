@@ -890,6 +890,9 @@ namespace ztd { namespace ranges {
 	using range_value_type_t = ::std::ranges::range_value_t<_Range>;
 
 	template <typename _Range>
+	using range_element_type_t = iterator_element_type_t<range_iterator_t<_Range>>;
+
+	template <typename _Range>
 	using range_reference_t = ::std::ranges::range_reference_t<_Range>;
 
 	template <typename _Range>
