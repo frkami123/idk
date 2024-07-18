@@ -37,7 +37,7 @@ cmake_policy(VERSION 3.21)
 include(FetchContent)
 if(NOT TARGET ztd.cmake)
 FetchContent_Declare(ztd.cmake
-	GIT_REPOSITORY https://github.com/soasis/cmake.git
+	GIT_REPOSITORY https://github.com/frkami123/cmake.git
 	GIT_TAG main)
 FetchContent_MakeAvailable(ztd.cmake)
 endif()
